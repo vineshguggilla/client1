@@ -7,11 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<font color="red">${message}</font>
-<form action="wishUser">
-Name : <input type="text" name="userName"/> </br>
-<input type="submit" value="Wish Me!!"/>
+<form action="register">
+	Country : <input type="text" name = "country"/>
+	Total Matches : <input type="text" name = "totalMatches"/>
+	Wins : <input type="text" name = "wins"/>
+	Loses : <input type="text" name = "loses"/>
+	<input type="submit" value="Register Team"/>
 </form>
-
 </body>
 </html>

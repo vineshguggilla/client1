@@ -18,7 +18,7 @@ public class IplController {
 		System.out.println("Wishes requested for user : " + name);
 		//Hit rest web service and add result to model object
 		
-		String url = "http://192.168.0.19:8080/cricket-app/ipl/wishUser?name=" + name;
+		String url = "http://192.168.0.20:8080/cricket-app/ipl/wishUser?name=" + name;
 		HttpHeaders headers = new HttpHeaders();
 		HttpEntity<String> entity = new HttpEntity<String>(headers);
 
